@@ -136,7 +136,7 @@
 	},
 	"accounts": {
 		"default": {
-			"address": "01cf0e2f2f715450",
+			"address": "f4a3472b32eac8d8",
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		},
 		"emulator-account": {
@@ -144,15 +144,15 @@
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		},
 		"flow-utils": {
-			"address": "045a1763c93006ca",
+			"address": "1beecc6fef95b62e",
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		},
 		"hybrid-custody": {
-			"address": "179b6b1cb6755e31",
+			"address": "ff8975b2fe6fb6f1",
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		},
 		"standards": {
-			"address": "e03daebed8ca0615",
+			"address": "0dbaa95c7691bc4f",
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		}
 	},
