@@ -37,6 +37,12 @@
 				"testnet": "96b15ff6dfde11fe"
 			}
 		},
+		"ExampleNFT": {
+			"source": "cadence/contracts/standards/ExampleNFT.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
 		"FTAllFactory": "cadence/contracts/hybrid-custody/factories/FTAllFactory.cdc",
 		"FTProviderFactory": {
 			"source": "cadence/contracts/hybrid-custody/factories/FTProviderFactory.cdc",
@@ -130,7 +136,7 @@
 	},
 	"accounts": {
 		"default": {
-			"address": "11a1b8a51a86f2a1",
+			"address": "01cf0e2f2f715450",
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		},
 		"emulator-account": {
@@ -138,15 +144,15 @@
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		},
 		"flow-utils": {
-			"address": "f5c601780b7cf27e",
+			"address": "045a1763c93006ca",
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		},
 		"hybrid-custody": {
-			"address": "1a8b8a3cd6038c88",
+			"address": "179b6b1cb6755e31",
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		},
 		"standards": {
-			"address": "e8b856d25efd8636",
+			"address": "e03daebed8ca0615",
 			"key": "686779d775e5fcbf8d2f4a85cb4c53525d02b7ef53230d180fc16f35d9b7d025"
 		}
 	},
@@ -157,8 +163,8 @@
 			],
 			"emulator-account": [
 				"NonFungibleToken",
-				"FungibleToken",
 				"ViewResolver",
+				"ExampleNFT",
 				"AddressUtils",
 				"StringUtils",
 				"ArrayUtils",
